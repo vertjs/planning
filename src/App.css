@@ -24,15 +24,22 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button, .edit {
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control:focus, .form-control, .delete, .delete:focus, .delete:active {
+  background-color: #282c34;
+  box-shadow: none;
+  border: none;
+  outline: none;
 }
+
+.btn-medium {
+  vertical-align: middle;
+  height: 15px;
+  width: 10px;
+  margin: 0;
+  padding: 10px;
+}
+
